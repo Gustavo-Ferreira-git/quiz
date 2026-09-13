@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tela11">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="912dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="372dp"
+            app:srcCompat="@drawable/jamaica" />
+
+        <EditText
+            android:id="@+id/editTextText8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Qual é o nome desse país?" />
+
+        <RadioButton
+            android:id="@+id/radioButton37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Canadá" />
+
+        <RadioButton
+            android:id="@+id/radioButton38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jamaica" />
+
+        <RadioButton
+            android:id="@+id/radioButton39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Holanda" />
+
+        <RadioButton
+            android:id="@+id/radioButton40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dinamarca" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
