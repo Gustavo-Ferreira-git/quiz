@@ -2,12 +2,13 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/Tela1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".tela7">
 
     <LinearLayout
+        android:id="@+id/Tela7"
         android:layout_width="409dp"
         android:layout_height="912dp"
         android:orientation="vertical"
@@ -53,7 +54,7 @@
             android:text="Italia" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/Botaot7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Enviar" />
